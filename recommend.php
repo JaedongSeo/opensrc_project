@@ -3,7 +3,7 @@ require 'includes/auth.php';
 require 'includes/db.php';
 
 // Gemini API 키 설정
-$GEMINI_API_KEY = 'AIzaSyAM-a0EzVwespoNpp68o4mItxcSY2rDAuw'; // ← 여기에 본인의 키 입력
+$GEMINI_API_KEY = ''; // ← 여기에 본인의 키 입력
 
 // 사용자 handle 가져오기
 $stmt = $conn->prepare("SELECT baekjoon_handle FROM users WHERE id = ?");
